@@ -10,7 +10,9 @@ Breve mais atualizações.
 
 ## Características
 
-:heavy_check_mark: Em construição ;\
+:heavy_check_mark: Em construção ;\
+:heavy_check_mark: Estilização dos elementos ;\
+:heavy_check_mark: Aplicação de efeitos em alguns elementos ;\
 :heavy_check_mark: Repositório sendo atualizado de acordo com as aulas ;\
 
 ## :rocket: Tecnologias
