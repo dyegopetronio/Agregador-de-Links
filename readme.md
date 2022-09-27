@@ -10,6 +10,9 @@ Aplicaçao foi desenvolvida durante o evento Maratona Explorer 2.0, com a orient
 
 :heavy_check_mark: Elementos estilizados ;\
 :heavy_check_mark: Design moderno ;\
+:heavy_check_mark: Responsivo ;\
+:heavy_check_mark: Modo light e modo dark ;\
+:heavy_check_mark: Elementos 100% personalizáveis ;\
 
 ## :rocket: Tecnologias
 
