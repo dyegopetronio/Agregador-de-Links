@@ -4,19 +4,17 @@
 
 ### Descriçao
 
-Aplicaçao está sendo desenvolvida durante o evento Maratona Explorer 2.0, com a orientaçao do professor Mayk Brito que está acontecendo em Julho de 2022.
-
-Breve mais atualizações.
+Aplicaçao foi desenvolvida durante o evento Maratona Explorer 2.0, com a orientaçao do professor Mayk Brito da Rocketseat que ocorreu em Julho de 2022.
 
 ## Características
 
-:heavy_check_mark: Em construção ;\
-:heavy_check_mark: Estilização dos elementos ;\
-:heavy_check_mark: Aplicação de efeitos em alguns elementos ;\
-:heavy_check_mark: Repositório sendo atualizado de acordo com as aulas ;\
+:heavy_check_mark: Elementos estilizados ;\
+:heavy_check_mark: Design moderno ;\
 
 ## :rocket: Tecnologias
 
-No projeto foi utilizado até o momento as seguintes tecnologias:
+No projeto foi utilizado as seguintes tecnologias:
 
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/html/)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)

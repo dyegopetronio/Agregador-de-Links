@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Dyêgo Links</title>
 
     <link
@@ -14,8 +14,56 @@
     />
   </head>
 
-  <body>
+  <body class="light">
     <div class="container">
+      <nav>
+        <div>
+          <div class="menu">
+            <button
+              aria-label="Modo claro"
+              onclick="dayMode()"
+              class="day-mode"
+            >
+              <svg
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.5 17.5L19 19M20 12H22M6.5 6.5L5 5M17.5 6.5L19 5M6.5 17.5L5 19M2 12H4M12 2V4M12 20V22M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Modo escuro"
+              onclick="darkMode()"
+              class="dark-mode"
+            >
+              <?xml version="1.0" ?><svg
+                width="24px"
+                height="24px"
+                viewBox="0 0 64 64"
+                data-name="Layer 1"
+                id="Layer_1"
+                fill="black"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M34.82,56.11a23.86,23.86,0,0,1-9.38-1.9A2,2,0,0,1,27,50.53a19.87,19.87,0,0,0,7.82,1.58A20.16,20.16,0,0,0,46.59,48.3a24.12,24.12,0,0,1-16.2-35.91A20.16,20.16,0,0,0,14.71,32a19.91,19.91,0,0,0,3.88,11.87,2,2,0,0,1-3.23,2.37A24.12,24.12,0,0,1,34.66,7.89h0A2,2,0,0,1,36.5,9.07a2,2,0,0,1-.33,2.16,20.11,20.11,0,0,0,15,33.5h.13a2,2,0,0,1,1.83,1.19,2,2,0,0,1-.34,2.15A24.1,24.1,0,0,1,34.82,56.11Z"
+                  stroke="black"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
       <img
         class="avatar"
         src="https://github.com/dyegopetronio.png"
@@ -32,8 +80,11 @@
       </ul>
 
       <footer>
-        Feito com 💜 pela <a href="" target="_blank">Rocketseat</a>
+        Feito com 💜 por Dyêgo Petronio <br />com apoio da
+        <a href="" target="_blank">Rocketseat</a>
       </footer>
     </div>
+    <!-- Main Script -->
+    <script src="./assets/script/main.js"></script>
   </body>
 </html>

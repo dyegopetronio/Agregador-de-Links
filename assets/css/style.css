@@ -1,0 +1,176 @@
+/*===== GERAL =============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*===== TEMA =============*/
+
+/* Paleta de Cores Azul - Inicio (Remova o comentário
+do trecho de código abaixo e comente o trecho posterior
+para usar o tema azul */
+
+body.light {
+  --primary-color: #4263eb;
+  --primary-color-hover: #364fc7;
+  --secondary-color: #edf2ff;
+  --text-color: #00082f;
+  --text-color-b: white;
+}
+
+body.dark {
+  --secondary-color: #00082f;
+  --text-color: #edf2ff;
+  --primary-color: #4263eb;
+  --primary-color-hover: #364fc7;
+  --text-color-b: white;
+}
+
+/* Fim da paleta de cores azul */
+
+/* Paleta de Cores Rosa - Inicio (Remova o comentário
+do trecho de código abaixo e comente o trecho anterior
+para usar o tema rosa */
+
+/*body.light {
+  --primary-color: #d6336c;
+  --primary-color-hover: #a61e4d;
+  --secondary-color: #fff0f6;
+  --text-color: #1f000b;
+  --text-color-b: white;
+}
+
+body.dark {
+  --secondary-color: #1f000b;
+  --text-color: #fff0f6;
+  --primary-color: #d6336c;
+  --primary-color-hover: #a61e4d;
+  --text-color-b: white;
+}*/
+
+/* Fim da paleta de cores rosa */
+
+body.light .day-mode {
+  visibility: hidden;
+}
+
+body.dark .dark-mode {
+  visibility: hidden;
+}
+
+body.dark .day-mode svg path {
+  stroke: white;
+  fill: white;
+}
+
+.day-mode {
+  position: absolute;
+  left: 0.055em;
+}
+
+/*===== CONTEÚDO =============*/
+
+body {
+  background: var(--secondary-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  width: 48px;
+  display: flex;
+  position: relative;
+  background: none;
+  border-radius: 55px;
+  align-items: center;
+  top: 25px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button .dark-mode {
+  position: absolute;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+
+img {
+  width: 100%;
+}
+
+img.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: var(--primary-color) solid 4px;
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--text-color);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.username {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  color: var(--text-color);
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--text-color-b);
+  text-transform: uppercase;
+  font-size: 14px;
+
+  margin-bottom: 16px;
+  border-radius: 6px;
+
+  transition: background 400ms;
+}
+
+ul li a:hover {
+  background: var(--primary-color-hover);
+}
+
+footer {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--text-color);
+  opacity: 0.6;
+
+  transition: opacity 300ms;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+footer a {
+  color: var(--text-color);
+}
